@@ -1,0 +1,79 @@
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #593196;
+    object-fit: cover;
+}
+
+.profile-img .avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #593196;
+    object-fit: cover;
+}
+
+.avatar-comment {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #593196;
+    object-fit: cover;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background: #999;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+pre {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+code {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+
+}
+
+.form-control-plaintext{
+  margin-top: -8px;  
+}
+
+
+
+.fileContainer {
+    overflow: hidden;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 0px;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+
+
+.fileContainer {
+    padding: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.fileContainer [type=file] {
+    cursor: pointer;
+}
+
